@@ -19,7 +19,7 @@ class MarketDataScreen extends HookConsumerWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Market Data"),
-        backgroundColor: Colors.blueAccent,
+       // backgroundColor: Colors.blueAccent,
       ),
       drawer: Drawer(
         child: ListView(
@@ -27,7 +27,7 @@ class MarketDataScreen extends HookConsumerWidget {
           children: [
             DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.blueAccent,
+          //      color: Colors.blueAccent,
               ),
               child: Text(
                 'Menu',
@@ -69,7 +69,7 @@ class MarketDataScreen extends HookConsumerWidget {
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
-                color: Colors.blueAccent,
+             //   color: Colors.blueAccent,
               ),
             ),
             SizedBox(height: 10),
@@ -108,7 +108,7 @@ class MarketDataScreen extends HookConsumerWidget {
                         return ListTile(
                           leading: Icon(
                             Icons.show_chart,
-                            color: Colors.blueAccent,
+                       //     color: Colors.blueAccent,
                           ),
                           title: Text(
                             marketData.symbol,
@@ -118,7 +118,7 @@ class MarketDataScreen extends HookConsumerWidget {
                             "\$${marketData.price.toStringAsFixed(2)}",
                             style: TextStyle(color: Colors.black54),
                           ),
-                          trailing: Icon(Icons.arrow_forward_ios, color: Colors.blueAccent),
+                          trailing: Icon(Icons.arrow_forward_ios),
                         );
                       },
                     ),

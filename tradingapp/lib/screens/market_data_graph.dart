@@ -100,7 +100,7 @@ class MarketDataGraph extends StatelessWidget {
           LineChartBarData(
             spots: sampledSpots,
             isCurved: true,
-            colors: [Colors.blue],
+           // colors: [Colors.blue],
             dotData: FlDotData(show: false),
           ),
         ],

@@ -10,7 +10,7 @@ class OrderScreen extends HookConsumerWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Orders"),
-        backgroundColor: Colors.blueAccent,
+       // backgroundColor: Colors.blueAccent,
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),

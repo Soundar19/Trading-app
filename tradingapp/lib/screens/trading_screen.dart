@@ -24,7 +24,7 @@ class TradingScreen extends HookConsumerWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Trading"),
-        backgroundColor: Colors.blueAccent,
+      //  backgroundColor: Colors.blueAccent,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

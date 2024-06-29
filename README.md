@@ -16,9 +16,8 @@ This is a simplified trading application that includes features for real-time da
 
 ### Prerequisites
 
-- [Flutter](https://flutter.dev/docs/get-started/install) (version 3.13.5)
-- Dart (version 3.1.2)
-- [Firebase CLI](https://firebase.google.com/docs/cli) (for setting up Firebase)
+- [Flutter] (version 3.13.5)
+- [Dart] (version 3.1.2)
 - Node.js (for running the mock WebSocket server)
 
 ### Run the Application
@@ -26,12 +25,15 @@ This is a simplified trading application that includes features for real-time da
 1. flutter pub get
 2. flutter run
 
+### For Login email and password
+Email - 1997soundar@gmail.com
+password - 12345678
+
 ### Run the Node Js
 
 1.cd my-websocket-project
 2.npm install
 3.node server.js
-4.
 
 
 
